@@ -32,6 +32,8 @@ try {
         }
         $out .= "]";
         echo $out;
+
+
     } catch (Exception $e) {
         echo "erro: ". $e->getMessage();
     
